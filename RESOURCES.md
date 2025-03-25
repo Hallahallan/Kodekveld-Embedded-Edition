@@ -1,6 +1,6 @@
 # Ressurser og Datasheets
 
-Dette dokumentet inneholder nyttige ressurser og datasheets som kan være til stor hjelp under kodekvelden.
+Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til prosjekter som kan være til stor hjelp under kodekvelden.
 
 ## 📚 Datasheets
 
@@ -21,7 +21,7 @@ Dette dokumentet inneholder nyttige ressurser og datasheets som kan være til st
 
 **TODO: MER HER**
 
-### Arduino Uno Rev4
+### Arduino Uno R4 Minima
 
 - [Arduino Uno R4 Minima Dokumentasjon](https://docs.arduino.cc/hardware/uno-r4-minima/)
 - [Arduino Uno R4 Minima Pinout Diagram](https://docs.arduino.cc/resources/pinouts/ABX00080-full-pinout.pdf)
@@ -39,7 +39,6 @@ Dette dokumentet inneholder nyttige ressurser og datasheets som kan være til st
 
 - [Fritzing](https://fritzing.org/) - For å lage kretsdiagrammer
 - [Tinkercad Circuits](https://www.tinkercad.com/learn/circuits) - For å simulere Arduino-kretser
-- [Grunnleggende Elektronikk Veiledninger](https://www.electronics-tutorials.ws/category/arduino)
 
 ## 🎨 Inspirasjonsprosjekter
 
