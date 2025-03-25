@@ -1,25 +1,30 @@
-# Ressurser og Datablader
+# Ressurser og Datasheets
 
-Dette dokumentet inneholder nyttige ressurser, datablader og inspirasjon for ditt Arduino hackathon-prosjekt.
+Dette dokumentet inneholder nyttige ressurser og datasheets som kan være til stor hjelp under kodekvelden.
 
-## 📚 Datablader
+## 📚 Datasheets
 
 ### Sensorer og Moduler
 
-- [Ultrasonic Distance Sensor HC-SR04](https://www.kjell.com/globalassets/mediaassets/768118_87291_datasheet_en.pdf?ref=FBF87146FA)
+#### Denne inneholder de aller fleste moduler tilgjengelig:
+
+##### [Kjell & Company Large Sensor Kit](https://www.kjell.com/globalassets/mediaassets/768118_87291_datasheet_en.pdf?ref=FBF87146FA)
+
+#### Modulspesifikke datasheets:
+
 - [DHT11 Temperature & Humidity Sensor](https://components101.com/sites/default/files/component_datasheet/DHT11-Temperature-Sensor.pdf)
 - [PIR Motion Sensor](https://cdn-learn.adafruit.com/downloads/pdf/pir-passive-infrared-proximity-motion-sensor.pdf)
-- [OLED Display Module](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf)
 - [Joystick Module](https://components101.com/sites/default/files/component_datasheet/Joystick%20Module.pdf)
 - [BMP280 Pressure Sensor](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)
 - [MPU6050 Accelerometer & Gyroscope](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf)
-- [Relay Module](https://components101.com/sites/default/files/component_datasheet/5V%20Relay%20Module%20Datasheet.pdf)
 - [WS2812B LED Strip](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
+
+**TODO: MER HER**
 
 ### Arduino Uno Rev4
 
-- [Arduino Uno Rev4 Dokumentasjon](https://docs.arduino.cc/hardware/uno-rev4)
-- [Arduino Uno Rev4 Pinout Diagram](https://content.arduino.cc/assets/Pinout-UNOrev4_latest.png)
+- [Arduino Uno R4 Minima Dokumentasjon](https://docs.arduino.cc/hardware/uno-r4-minima/)
+- [Arduino Uno R4 Minima Pinout Diagram](https://docs.arduino.cc/resources/pinouts/ABX00080-full-pinout.pdf)
 
 ## 🧠 Læringsressurser
 

@@ -5,7 +5,7 @@ Velkommen til Kodekveld! Dette repositoriet inneholder all informasjon og ressur
 ## 🚀 Oversikt
 
 - **Lag:** Grupper på opptil 5 deltakere
-- **Utstyr:** Hvert lag mottar en Arduino Uno Rev4 og 100 enheter virtuell valuta
+- **Utstyr:** Hvert lag mottar en Arduino Uno R4 Minima og 100 enheter virtuell valuta
 - **Utfordring:** Bygg det kuleste mulige prosjektet på 2 timer ved hjelp av innkjøpte moduler og sensorer
 - **Vinner:** Laget med det mest imponerende prosjektet vinner en premie! Husk at det er mulig å imponere med lagarbeid, ånd, kreativitet, estimering og mange andre måter!
 
@@ -32,21 +32,22 @@ Vennligst fullfør følgende oppsett **før** kodekvelden for å sikre at du kan
    - Åpne Arduino IDE etter installasjon
    - Du skal se en tom sketch med funksjonene `void setup()` og `void loop()`
 
-### Sette opp Arduino Uno Rev4
+### Sette opp Arduino Uno R4
 
-For å bruke Arduino Uno Rev4, som er mikrokontrolleren vi skal bruke under kodekvelden, må du legge den til i Arduino IDE, tenk på det som en extension i VSCode.
+For å bruke Arduino Uno R4 Minima, som er mikrokontrolleren vi skal bruke under kodekvelden, må du legge den til i Arduino IDE, tenk på det som en extension i VSCode.
 
 1. **Installer Arduino Uno Rev4 støtte**
    - I Arduino IDE, gå til **Tools → Board → Boards Manager**
-   - Søk etter "Arduino Uno Rev4"
-   - Installer den nyeste versjonen av Arduino megaAVR Boards-pakken
+   - Søk etter "Arduino Uno R4"
+   - Installer den nyeste versjonen av Arduino UNO R4 Boards-pakken
+     ![alt text](image.png)
 2. **Velg kortet**
 
-   - Gå til **Tools → Board → Arduino megaAVR Boards**
-   - Velg **Arduino Uno Rev4**
+   - Gå til **Tools → Board → Arduino Renesas UNO R4 Boards**
+   - Velg **Arduino Uno R4 Minima**
 
-3. **Test oppsettet ditt**
-   - Koble Arduino Uno Rev4 til datamaskinen ved hjelp av en USB-kabel
+3. **Test oppsettet ditt (Valgfritt)**
+   - Koble Arduino Uno R4 til datamaskinen ved hjelp av en USB-kabel
    - Gå til **Tools → Port** og velg porten hvor Arduino er tilkoblet
    - Åpne Blink-eksempelet: **File → Examples → 01.Basics → Blink**
    - Klikk på Upload-knappen (høyrepil) øverst til venstre
