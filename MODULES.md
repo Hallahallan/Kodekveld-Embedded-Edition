@@ -111,7 +111,7 @@ Disse modulene krever ekstra kompetanse og er mer utfordrende å bruke.
 | UV-sensor                | 25                | Sensor for UV-stråling              | 1                   |
 | Adafruit LCD screen      | 30                | Avansert LCD-skjerm                 | 1                   |
 | IR remote                | 20                | Infrarød fjernkontroll med mottaker | 2                   |
-| Spectra flex             | 15                | Fleksibel ledende materiale         | 4                   |
+| Spectra flex             | 15                | Fleksibel sensor                    | 4                   |
 
 ## 📝 Merknader for Deltakere
 

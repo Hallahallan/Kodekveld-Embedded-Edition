@@ -72,6 +72,7 @@ For å bruke Arduino Uno R4 Minima, som er mikrokontrolleren vi skal bruke under
    - Sett av tid i begynnelsen på å forstå oppgaven, planlegge prosjektet nøye og bestemme hvilke moduler man skal kjøpe
    - Skisser et grunnleggende kretsdiagram før du kobler noe
    - Sett opp et budsjett ark, der man holder styr på hvor mye penger man bruker og hvor mye man eventuelt har igjen
+   - Det tar tid å sette opp ledninger og moduler riktig, sett av tid til det
    - Husk at man kan handle flere ganger, så man kan sette opp iterasjoner av prosjektet
 
 2. **Del og erobre**

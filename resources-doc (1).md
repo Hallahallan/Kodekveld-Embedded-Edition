@@ -13,25 +13,27 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
 #### Modulspesifikke datasheets:
 
 ##### Vanlige moduler:
-
 - [DHT11 Temperature & Humidity Sensor](https://components101.com/sites/default/files/component_datasheet/DHT11-Temperature-Sensor.pdf)
 - [PIR Motion Sensor](https://cdn-learn.adafruit.com/downloads/pdf/pir-passive-infrared-proximity-motion-sensor.pdf)
 - [Joystick Module](https://components101.com/sites/default/files/component_datasheet/Joystick%20Module.pdf)
 - [BMP280 Pressure Sensor](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)
 - [Ultrasonic Distance Sensor HC-SR04](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
+- [IR Receiver Module](https://www.sparkfun.com/datasheets/Sensors/Infrared/tsop382.pdf)
+- [Flame Sensor Module](https://components101.com/sites/default/files/component_datasheet/Flame-Sensor-Module.pdf)
+- [Hall Effect Sensor](https://components101.com/sites/default/files/component_datasheet/A3144-Hall-Effect-Sensor.pdf)
 - [Light Dependent Resistor](https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf)
 
 ##### Hard Mode moduler:
-
-- [Sparkfun 16x2 LCD Screen](https://learn.sparkfun.com/tutorials/basic-character-lcd-hookup-guide)
-- [4x4 Keypad](https://www.electronicwings.com/arduino/4x4-keypad-interfacing-with-arduino-uno)
-- [7-Segment Display](https://projecthub.arduino.cc/SAnwandter1/programming-4-digit-7-segment-led-display-5c4617)
+- [Sparkfun 16x2 LCD Screen](https://cdn.sparkfun.com/datasheets/LCD/Monochrome/ADM1602K-NSW-FBS-3.3v.pdf)
+- [4x4 Keypad](https://cdn.sparkfun.com/datasheets/Components/Switches/keypad.pdf)
+- [7-Segment Display](https://www.sparkfun.com/datasheets/Components/LED/7-Segment/YSD-439AB4B-35.pdf)
 - [GY-346 Accelerometer](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf)
 - [BME280 Environment Sensor](https://cdn-shop.adafruit.com/datasheets/BST-BME280_DS001-10.pdf)
-- [MQ-2 Gas Sensor](https://projecthub.arduino.cc/m_karim02/arduino-and-mq2-gas-sensor-f3ae33)
-- [UV Sensor Module](https://projecthub.arduino.cc/d4visl/portable-and-rechargeable-ultraviolet-uv-radiation-meter-8ca087)
-- [Adafruit LCD Screen](https://randomnerdtutorials.com/guide-for-oled-display-with-arduino/)
-- [Spectra Flex](https://www.spectrasymbol.com/resistive-flex-sensors/spectraflex-flex-sensors)
+- [MQ-2 Gas Sensor](https://www.pololu.com/file/0J309/MQ2.pdf)
+- [UV Sensor Module](https://cdn.sparkfun.com/assets/learn_tutorials/2/0/6/GUVA-S12SD_DataSheet20150519.pdf)
+- [Adafruit LCD Screen](https://cdn-shop.adafruit.com/datasheets/TC1602A-01T.pdf)
+- [IR Remote Control](https://cdn.sparkfun.com/datasheets/Sensors/Infrared/tsop382.pdf)
+- [Spectra Flex](https://cdn-shop.adafruit.com/datasheets/SpectraSymbol-Flex-Sensor-DJ1-118A-L004.pdf)
 
 ### Arduino Uno R4 Minima
 
@@ -57,19 +59,16 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
 ### Superenkle prosjekter (15-30 minutter)
 
 1. **Blinkende LED**
-
    - Bare koble en LED med motstand til en digital pin
    - Få LED-en til å blinke med ulike hastigheter
    - [Eksempel Kode](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink)
 
 2. **Knapp med LED**
-
    - En trykknapp som skrur en LED på eller av
    - Perfekt første interaktive prosjekt
    - [Eksempel Kode](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button)
 
 3. **Lysregulering med Potentiometer**
-
    - Bruk en potentiometer til å kontrollere lysstyrken på en LED
    - Introduserer analogRead() og analogWrite()
    - [Eksempel Kode](https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial)
@@ -82,19 +81,16 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
 ### Nybegynnernivå (30-60 minutter)
 
 1. **LED Trafikklys**
-
    - Bruk røde, gule og grønne LED-er for å simulere et trafikklys
    - Enkel sekvens med timere
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/techno_z/arduino-traffic-light-simulator-2ec9ae)
 
 2. **Termometer**
-
    - Koble til en temperatursensor og vis temperaturen
    - Kan legge til LED-er for å indikere når det er for varmt/kaldt
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/pibots/how-to-make-arduino-thermometer-d9ee65)
 
 3. **Lysavhengig Nattlys**
-
    - Bruk fotoresistor for å detektere mørke
    - Skru på LED-en automatisk når det blir mørkt
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/SBR/automatic-night-lamp-using-ldr-and-arduino-uno-799eb4)
@@ -107,19 +103,16 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
 ### Mellomnivå (1-2 timer)
 
 1. **Distansemåler med Ultralyd**
-
    - Bruk ultralydsensor for å måle avstand
    - LED eller summer som reagerer på avstandsendringer
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6)
 
 2. **RGB LED-styring**
-
    - Bruk potentiometere eller knapper til å styre fargene på en RGB LED
    - Lær om fargeblanding og PWM
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/muhammad-aqib/arduino-rgb-led-tutorial-fc003e)
 
 3. **Musikk med Passive Buzzer**
-
    - Spill enkle melodier med en buzzer
    - Legg til knapper for å velge ulike melodier
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/jrance/super-mario-theme-song-w-piezo-buzzer-and-arduino-1cc2e4)
@@ -132,19 +125,16 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
 ### Litt mer utfordrende (for de raske)
 
 1. **Tilt-aktivert LED-matrise**
-
    - Bruk en tilt-sensor til å kontrollere et mønster av LED-er
    - Bra for å lære grunnleggende om sensorinput
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/building-arduino-robots/tilt-sensor-project-073c9d)
 
 2. **Servo Motor Styring**
-
    - Bruk potentiometer eller knapper for å kontrollere en servo
    - Kan brukes til å lage en enkel robotarm
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/instructables/sweeping-a-servo-motor-using-an-arduino-36d61a)
 
 3. **Lys og Lyd Show**
-
    - Kombiner LED-er og buzzer for å lage et synkronisert lys- og lydshow
    - Legg til knapper for å velge ulike mønstre/melodier
    - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/techmirtz/arduino-led-and-music-show-6d7c13)
@@ -170,22 +160,18 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
 ## 💡 Tips for vellykkede prosjekter på kort tid
 
 1. **Start enkelt og bygg videre**
-
    - Få en enkeltstående funksjon til å virke før du legger til flere
    - For eksempel, få én LED til å lyse før du prøver å kontrollere flere
 
 2. **Test underveis**
-
    - Test koden din ofte, etter hver lille endring
    - Dette gjør det lettere å finne eventuelle feil
 
 3. **Bruk biblioteker**
-
    - Arduino-biblioteker kan spare mye tid og kode
    - Sjekk hvilke biblioteker som finnes for modulene du bruker
 
 4. **Prioriter funksjonalitet over estetikk**
-
    - Få prosjektet til å fungere først, gjør det pent senere hvis det er tid
 
 5. **Be om hjelp tidlig**
