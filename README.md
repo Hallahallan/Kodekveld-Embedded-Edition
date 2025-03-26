@@ -93,7 +93,11 @@ For å bruke Arduino Uno R4 Minima, som er mikrokontrolleren vi skal bruke under
    - Ikke vent til slutten med å teste hele prosjektet
 
 5. **Ha det gøy!**
+
    - Til syvende og sist så er dette bare en harmløs konkurranse for å bli kjent, øve på å jobbe i gruppe og å lære seg noe nytt. Det er viktigere å ha det morro med oppgaven enn å vinne!
+
+   **CGI Tipsliste for suksess**
+   ![alt text](tipslisteCGI.png)
 
 ## 📅 Timeplan for Kodekvelden
 
