@@ -54,17 +54,16 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
 
 ## 🎨 Inspirasjonsprosjekter
 
-### Superenkle prosjekter (15-30 minutter)
+### Superenkle prosjekter
 
 1. **Blinkende LED**
 
-   - Bare koble en LED med motstand til en digital pin
-   - Få LED-en til å blinke med ulike hastigheter
+   - Få LED-en på arduino boardet til å blinke med ulike hastigheter
    - [Eksempel Kode](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink)
 
 2. **Knapp med LED**
 
-   - En trykknapp som skrur en LED på eller av
+   - En trykknapp som skrur LEDen på arduino boardet på eller av
    - Perfekt første interaktive prosjekt
    - [Eksempel Kode](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button)
 
@@ -79,80 +78,98 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
    - Kan utvides med knapper for forskjellige toner
    - [Eksempel Kode](https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody)
 
-### Nybegynnernivå (30-60 minutter)
+### Nybegynnernivå
 
 1. **LED Trafikklys**
 
    - Bruk røde, gule og grønne LED-er for å simulere et trafikklys
    - Enkel sekvens med timere
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/techno_z/arduino-traffic-light-simulator-2ec9ae)
+   - [Eksempel Prosjekt](https://projecthub.arduino.cc/krishna_agarwal/traffic-light-using-arduino-a-beginner-project-35f8c6)
 
 2. **Termometer**
 
    - Koble til en temperatursensor og vis temperaturen
    - Kan legge til LED-er for å indikere når det er for varmt/kaldt
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/pibots/how-to-make-arduino-thermometer-d9ee65)
+   - [Eksempel Prosjekt](https://projecthub.arduino.cc/microst/active-sensor-thermometer-73b283)
 
-3. **Lysavhengig Nattlys**
+3. **Automatisk Nattlys**
 
    - Bruk fotoresistor for å detektere mørke
    - Skru på LED-en automatisk når det blir mørkt
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/SBR/automatic-night-lamp-using-ldr-and-arduino-uno-799eb4)
+   - [Eksempel Prosjekt](https://projecthub.arduino.cc/DCamino/ambient-light-sensor-using-photo-resistor-and-led-lights-79c2ed)
 
 4. **Enkel Alarm med Bevegelsessensor**
    - Bruk PIR-sensor for å oppdage bevegelse
+   - Kan alternativt også gjøres ved bruk av en [HC-SR04](https://projecthub.arduino.cc/Isaac100/getting-started-with-the-hc-sr04-ultrasonic-sensor-7cabe1)
    - Utløs en buzzer eller LED når bevegelse oppdages
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/electronicsfan123/pir-motion-sensor-with-arduino-fd540a)
+   - [Eksempel Prosjekt](https://projecthub.arduino.cc/BEASTIDREES62/diy-homemade-pir-alarm-system-with-arduino-c553fa)
 
-### Mellomnivå (1-2 timer)
+### Mellomnivå
 
 1. **Distansemåler med Ultralyd**
 
    - Bruk ultralydsensor for å måle avstand
    - LED eller summer som reagerer på avstandsendringer
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6)
+   - [Eksempel Prosjekt](https://projecthub.arduino.cc/sumanskd/measure-distance-and-more-with-hc-sr04-ultrasonic-sensor-c61b3e)
 
 2. **RGB LED-styring**
 
    - Bruk potentiometere eller knapper til å styre fargene på en RGB LED
    - Lær om fargeblanding og PWM
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/muhammad-aqib/arduino-rgb-led-tutorial-fc003e)
+   - [Eksempel Prosjekt](https://roboticsbackend.com/arduino-control-rgb-led-with-potentiometer/)
 
 3. **Musikk med Passive Buzzer**
 
    - Spill enkle melodier med en buzzer
    - Legg til knapper for å velge ulike melodier
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/jrance/super-mario-theme-song-w-piezo-buzzer-and-arduino-1cc2e4)
+   - [Eksempel Prosjekt](https://projecthub.arduino.cc/tmekinyan/playing-popular-songs-with-arduino-and-a-buzzer-546f4a)
 
-4. **Digital Terning**
-   - Lag en digital terning med 7-segment display eller LED-er
-   - Kast terningen ved å trykke på en knapp
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/Arnov_Sharma_makes/led-dice-using-arduino-26b779)
+### Litt mer utfordrende
 
-### Litt mer utfordrende (for de raske)
-
-1. **Tilt-aktivert LED-matrise**
-
-   - Bruk en tilt-sensor til å kontrollere et mønster av LED-er
-   - Bra for å lære grunnleggende om sensorinput
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/building-arduino-robots/tilt-sensor-project-073c9d)
-
-2. **Servo Motor Styring**
+1. **Servo Motor Styring**
 
    - Bruk potentiometer eller knapper for å kontrollere en servo
-   - Kan brukes til å lage en enkel robotarm
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/instructables/sweeping-a-servo-motor-using-an-arduino-36d61a)
+   - Kan brukes til å lage en enkel robotarm (eller hvertfall simulere en)
+   - [Eksempel Prosjekt](https://docs.arduino.cc/learn/electronics/servo-motors/)
 
-3. **Lys og Lyd Show**
+2. **Lys og Lyd Show**
 
    - Kombiner LED-er og buzzer for å lage et synkronisert lys- og lydshow
    - Legg til knapper for å velge ulike mønstre/melodier
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/techmirtz/arduino-led-and-music-show-6d7c13)
+   - [Eksempel Prosjekt](https://projecthub.arduino.cc/samfrits11/led-lightshow-f9dd80)
 
-4. **Enkel Værmelding**
+3. **Enkel Værmelding**
+
    - Bruk temperatur-, fuktighets- og trykkmoduler
    - Vis informasjon på en LCD-skjerm eller med LED-indikatorer
-   - [Eksempel Prosjekt](https://create.arduino.cc/projecthub/techno_z/diy-arduino-weather-station-d32f2e)
+   - [Eksempel Prosjekt](https://projecthub.arduino.cc/rajeshjiet/iot-based-weather-monitoring-system-using-arduino-a3334a)
+
+   ## 💡 Tips for vellykkede prosjekter på kort tid
+
+4. **Start enkelt og bygg videre**
+
+   - Få en enkeltstående funksjon til å virke før du legger til flere
+   - For eksempel, få én LED til å lyse før du prøver å kontrollere flere
+
+5. **Test underveis**
+
+   - Test koden din ofte, etter hver lille endring
+   - Dette gjør det lettere å finne eventuelle feil
+
+6. **Bruk biblioteker**
+
+   - Arduino-biblioteker kan spare mye tid og kode
+   - Sjekk hvilke biblioteker som finnes for modulene du bruker
+
+7. **Prioriter funksjonalitet over estetikk**
+
+   - Få prosjektet til å fungere først, gjør det pent senere hvis det er tid
+
+8. **Be om hjelp tidlig**
+   - Ikke sitt fast for lenge med samme problem
+   - Spør mentorer om hjelp hvis du er usikker
+
+Husk at dette er en kodekveld for å lære og ha det gøy. Det viktigste er ikke å lage det mest avanserte prosjektet, men å fullføre noe du er stolt av!
 
 ## 📹 Videoveiledninger
 
@@ -166,30 +183,3 @@ Dette dokumentet inneholder nyttige ressurser, datasheets og inspirasjon til pro
 - [Arduino Forum](https://forum.arduino.cc/)
 - [Arduino Stack Exchange](https://arduino.stackexchange.com/)
 - [r/arduino på Reddit](https://www.reddit.com/r/arduino/)
-
-## 💡 Tips for vellykkede prosjekter på kort tid
-
-1. **Start enkelt og bygg videre**
-
-   - Få en enkeltstående funksjon til å virke før du legger til flere
-   - For eksempel, få én LED til å lyse før du prøver å kontrollere flere
-
-2. **Test underveis**
-
-   - Test koden din ofte, etter hver lille endring
-   - Dette gjør det lettere å finne eventuelle feil
-
-3. **Bruk biblioteker**
-
-   - Arduino-biblioteker kan spare mye tid og kode
-   - Sjekk hvilke biblioteker som finnes for modulene du bruker
-
-4. **Prioriter funksjonalitet over estetikk**
-
-   - Få prosjektet til å fungere først, gjør det pent senere hvis det er tid
-
-5. **Be om hjelp tidlig**
-   - Ikke sitt fast for lenge med samme problem
-   - Spør mentorer om hjelp hvis du er usikker
-
-Husk at dette er en hackathon for å lære og ha det gøy. Det viktigste er ikke å lage det mest avanserte prosjektet, men å fullføre noe du er stolt av!
