@@ -1,6 +1,19 @@
 # Tilgjengelige Moduler og Kostnader
 
-Dette dokumentet inneholder alle moduler og sensorer som er tilgjengelige for "kjøp" under hackathonen, sammen med kostnadene i enheter. Hvert lag har 100 enheter å bruke.
+Dette dokumentet inneholder alle moduler og sensorer som er tilgjengelige for "kjøp" under kodekvelden, sammen med kostnadene i enheter. Hvert lag har 100 enheter å bruke.
+
+## 📝 Merknader for Deltakere
+
+1. Alle priser er oppgitt i fiktive "enheter" - hvert lag har totalt 100 enheter å bruke.
+2. Du kan ikke handle eller dele komponenter mellom lag.
+3. Når de er kjøpt, kan ikke komponenter returneres eller byttes for å få tilbake enheter.
+4. Vanlige forbrukskomponenter som små mengder tape er tilgjengelige uten kostnad.
+5. Hvis det er behov for flere av samme komponent, multipliser kostnaden tilsvarende (LED koster 2, så 4 LED vil være 4 x 2 = 8 enheter).
+6. Arduino Uno R4 Minima leveres gratis til hvert lag.
+7. Arrangørene har siste ord i eventuelle tvister eller avklaringer angående modultilgjengelighet og prising.
+8. "Hard Mode" moduler krever mer teknisk kunnskap, men kan gi fordeler for kreative prosjekter.
+9. Antall tilgjengelig viser hvor mange av hver komponent vi har på lager - først til mølla!
+10. Komponenter må returneres (helst) i fungerende stand ved slutten av kodekvelden (Hvis du ødelegger noe så er ikke det farlig, men returner det og si ifra).
 
 ## 🔍 Basiskomponenter
 
@@ -112,16 +125,3 @@ Disse modulene krever ekstra kompetanse og er mer utfordrende å bruke.
 | Adafruit LCD screen      | 30                | Avansert LCD-skjerm                 | 1                   |
 | IR remote                | 20                | Infrarød fjernkontroll med mottaker | 2                   |
 | Spectra flex             | 15                | Fleksibel sensor                    | 4                   |
-
-## 📝 Merknader for Deltakere
-
-1. Alle priser er oppgitt i fiktive "enheter" - hvert lag har totalt 100 enheter å bruke.
-2. Du kan ikke handle eller dele komponenter mellom lag.
-3. Når de er kjøpt, kan ikke komponenter returneres eller byttes.
-4. Vanlige forbrukskomponenter som små mengder tape eller buntebånd er tilgjengelige uten kostnad.
-5. Hvis det er behov for flere av samme komponent, multipliser kostnaden tilsvarende.
-6. Arduino Uno Rev4 leveres gratis til hvert lag.
-7. Arrangørene har siste ord i eventuelle tvister eller avklaringer angående modultilgjengelighet og prising.
-8. "Hard Mode" moduler krever mer teknisk kunnskap, men kan gi fordeler for kreative prosjekter.
-9. Antall tilgjengelig viser hvor mange av hver komponent vi har på lager - først til mølla!
-10. Komponenter må returneres i fungerende stand ved slutten av hackathonen.

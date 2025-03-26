@@ -11,10 +11,10 @@ Velkommen til Kodekveld! Dette repositoriet inneholder all informasjon og ressur
 
 ## 📋 Viktige Dokumenter
 
-- [Regler og Retningslinjer](./RULES.md) - Detaljert informasjon om hackathon-reglene
+- [Regler og Retningslinjer](./RULES.md) - Detaljert informasjon om kodekveld-reglene
 - [Tilgjengelige Moduler](./MODULES.md) - Liste over moduler og sensorer som er tilgjengelige for kjøp med kostnader
 - [Ressurser og Datasheets](./RESOURCES.md) - Nyttige ressurser, datablader og inspirasjon
-- [Eksempelprosjekter](./examples/) - Enkle eksempelprosjekter for å komme i gang
+- [Eksempelprosjekter](./EXAMPLES.md/) - Enkle eksempelprosjekter for å komme i gang
 
 ## 🔧 Forberedelser
 
